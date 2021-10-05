@@ -23,7 +23,7 @@ files[q]
 ##Settings######################################
 savefile=1  #set to 1 to save data to Excel
 ################################################
-
+#
 #Load Data
 data.all<- read.table(file.path(dir,files[q]),sep="\t",header=T, skip=1) #only reads in the Run #q
 
